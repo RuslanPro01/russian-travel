@@ -1,0 +1,25 @@
+@import url(./__link/cover__link.css);
+@import url(./__img-container/cover__img-container.css);
+@import url(./__image/cover__image.css);
+@import url(./__title/cover___title.css);
+@import url(./__subtitle/cover__subtitle.css);
+
+.cover {
+    display: grid;
+    grid-template-columns: minmax(min-content, 1184px);
+    grid-template-rows: min-content;
+    justify-content: center;
+    margin: 92px 0;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .cover {
+        margin: 88px 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .cover {
+        margin: 64px 0;
+    }
+}

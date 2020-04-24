@@ -1,0 +1,5 @@
+.header__lang_link_visited {
+    display: table;
+    border-bottom: 2px solid #FFFFFF;
+}
+/*Предпологается, что дальнейшее управление классом будет серез JavaScript*/

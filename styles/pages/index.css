@@ -1,8 +1,13 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/1.fonts/Inter/inter.css);
-
-.page {
-    font-family: "Inter", Arial, Helvetica, sans-serif;
-    color: #FFFFFF;
-    background-color: #2A2C2F;
-}
+@import url(../blocks/1.page/page.css);
+@import url(../blocks/2.header/header.css);
+@import url(../blocks/3.lead/lead.css);
+@import url(../blocks/4.intro/intro.css);
+@import url(../blocks/5.photo-grid/photo-grid.css);
+@import url(../blocks/6.places/places.css); 
+@import url(../blocks/7.place/place.css); 
+@import url(../blocks/8.website/website.css); 
+@import url(../blocks/9.cover/cover.css);
+@import url(../blocks/10.footer/footer.css);
+@import url(../blocks/11.footer-nav/footer-nav.css);

@@ -1,0 +1,5 @@
+.lead__image {
+    grid-column: 1/2;
+    width: 100%;
+    margin-bottom: 8px;
+}

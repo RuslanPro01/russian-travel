@@ -1,0 +1,6 @@
+.palce__image-container {
+    max-width: 460px;
+    max-height: 460px;
+    grid-area: placeImage;
+    overflow: hidden;
+}

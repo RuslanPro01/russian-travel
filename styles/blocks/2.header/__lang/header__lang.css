@@ -1,0 +1,25 @@
+@import url(./_link/header__lang_link_visited.css);
+.header__lang {
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.header__lang:hover {
+    opacity: 0.8;
+}
+
+.header__lang:active, .header__lang:visited {
+    opacity: 0.7;
+}
+
+@media (max-width: 767px) {
+    .header__lang {
+        font-size: 18px;
+        line-height: 24px;
+    }
+}

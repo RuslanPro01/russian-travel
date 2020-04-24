@@ -1,0 +1,42 @@
+@import url(./__title/place__title.css);
+@import url(./__image/place__image.css);
+@import url(./__image-container/place__image-container.css);
+@import url(./__paragraph/place__paragraph.css);
+
+.place {
+    display: grid;
+    grid-template-columns: fit-content(460px) fit-content(484px);
+    grid-template-rows: auto auto;
+    grid-template-areas: 
+    "placeTitle website"
+    "placeImage placeDescription";
+    column-gap: 40px;
+    row-gap: 48px;
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+    .place {
+        column-gap: 32px;
+        grid-template-columns: fit-content(440px) fit-content(456px);
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .place {
+        grid-template-columns: fit-content(340px) fit-content(352px);
+        margin: 0 24px;
+        column-gap: 28px;
+    }
+}
+
+@media (max-width: 767px) {
+    .place {
+        margin: 0;
+        grid-template-columns: 100%;
+        grid-template-areas:
+        "placeTitle"
+        "placeImage"
+        "placeDescription";
+        row-gap: 32px;
+    }
+}

@@ -1,0 +1,18 @@
+.website__link {
+    text-decoration: underline;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    display: flex;
+    margin-top: 12px;
+    transition: all 0.5s ease;
+}
+
+.website__link:hover {
+    opacity: 0.8;
+}
+
+.website__link:active {
+    opacity: 0.5;
+}
