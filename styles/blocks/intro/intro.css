@@ -4,15 +4,16 @@
 @import url(./__item/intro__item.css);
 
 .intro {
-    margin: 92px 0;
-    margin-left: 148px;
+    margin: 114px auto 92px auto;
+    max-width: 984px;
     display: grid;
-    grid-template-columns: fit-content(690px);
+    grid-template-columns: fit-content(984px);
 }
 
 @media (min-width: 1024px) and (max-width: 1280px) {
     .intro {
-        margin-left: 48px;
+        margin-right: auto;
+        margin-left: auto;
     }
 }
 
