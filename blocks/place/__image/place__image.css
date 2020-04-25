@@ -22,3 +22,10 @@
         object-position: -3px 8px;
     }
 }
+
+@media (min-width: 470px) and (max-width: 767px) {
+    .place__image {
+        margin-left: 16px;
+        object-position: -5px 8px;
+    }
+}
