@@ -14,12 +14,13 @@
     .intro {
         margin-right: auto;
         margin-left: auto;
+        margin: 114px auto 92px auto;
     }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
     .intro {
-        margin: 88px 24px;
+        margin: 110px 24px 88px 24px;
     }
 }
 

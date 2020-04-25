@@ -1,4 +1,5 @@
-@import url(./_weight/intro__item_weight_bold.css);
+@import url(./_text/intro__item_text_accent.css);
+
 .intro__item {
     font-weight: normal;
     font-size: 12px;
